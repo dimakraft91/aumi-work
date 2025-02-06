@@ -469,7 +469,8 @@ a {
   position: absolute;
   top: -47%;
   left: -25%;
-  width: 879px;
+  width: clamp(43.75rem, -1rem + 69.92vw, 54.938rem);
+  /* 700px 879px  */
 }
 
 .grade {

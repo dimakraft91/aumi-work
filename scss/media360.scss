@@ -55,7 +55,10 @@
 
 	.main {}
 
-	.main__container {}
+	.main__container {
+		flex-direction: column;
+		align-items: center;
+	}
 
 	.container {}
 
@@ -87,9 +90,16 @@
 
 	.main__info-text {}
 
-	.main__right {}
+	.main__right {
+		overflow: hidden;
+	}
 
-	.main__right-img {}
+	.main__right-img {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 400px;
+	}
 
 	// main
 

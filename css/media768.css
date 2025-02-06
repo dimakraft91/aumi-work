@@ -24,6 +24,12 @@
   .main__btn {
     margin-bottom: 51px;
   }
+  .main__right-img {
+    position: absolute;
+    top: -10%;
+    left: -35%;
+    width: 450px;
+  }
   .grade__top {
     margin-top: 50px;
   }
