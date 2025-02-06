@@ -271,12 +271,17 @@ a {
 	}
 
 	&__top-link {
+		transition: 0.2s;
 		color: #000;
 		font-weight: 500;
 		font-size: 12px;
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
 		text-align: center;
+
+		&:hover {
+			color: #999;
+		}
 	}
 
 	&__contacts {
@@ -349,12 +354,17 @@ a {
 	&__bottom-item {}
 
 	&__bottom-link {
+		transition: 0.2s;
 		color: #000;
 		font-weight: 500;
 		font-size: 12px;
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
 		text-align: center;
+
+		&:hover {
+			color: #999;
+		}
 	}
 
 	&__right {
@@ -2261,6 +2271,7 @@ a {
 	&__phone {
 		display: inline-block;
 		position: relative;
+		transition: 0.2s;
 		margin-bottom: 15px;
 		margin-left: 43px;
 		color: #181818;
@@ -2269,6 +2280,10 @@ a {
 		line-height: 110%;
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.05em;
+
+		&:hover {
+			color: #999;
+		}
 
 		&:before {
 			display: inline-block;
@@ -2285,6 +2300,7 @@ a {
 	&__mail {
 		display: inline-block;
 		position: relative;
+		transition: 0.2s;
 		margin-bottom: 13px;
 		margin-left: 40px;
 		color: #181818;
@@ -2293,6 +2309,10 @@ a {
 		line-height: 110%;
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.05em;
+
+		&:hover {
+			color: #999;
+		}
 
 		&:before {
 			display: inline-block;
@@ -2473,11 +2493,16 @@ a {
 	}
 
 	&__col-link {
+		transition: 0.2s;
 		color: #181818;
 		font-weight: 500;
 		font-size: 14px;
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.05em;
+
+		&:hover {
+			color: #999;
+		}
 	}
 
 	&__col-details {
