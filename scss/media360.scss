@@ -311,9 +311,7 @@
 
 	// choice
 
-	.choice__container {
-		flex-direction: column;
-	}
+	.choice__container {}
 
 	.choice {}
 
@@ -701,4 +699,26 @@
 	.news__item {}
 
 	// news
+}
+
+@media screen and (max-width: 359px) {
+	.choice__container {
+		flex-direction: column;
+	}
+
+	.choice__right {
+
+		grid-template-columns: 1fr;
+		padding-top: 10px;
+	}
+
+	.choice__item:nth-child(3) {
+		grid-row: 3;
+		grid-column: 1;
+	}
+
+	.choice__item:nth-child(4) {
+		grid-row: 4;
+		grid-column: 1;
+	}
 }
