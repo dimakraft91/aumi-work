@@ -396,6 +396,21 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  border-radius: 100%;
+  overflow: hidden;
+  color: #595858;
+}
+.header__right-link svg path {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.header__right-link:hover {
+  background: #ffe03c;
+}
+.header__right-link:hover svg path {
+  fill: #fff;
 }
 .header-mob {
   display: none;
@@ -437,7 +452,10 @@ a {
 }
 .main__btn {
   display: inline-block;
+  -webkit-transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
   margin-bottom: 31px;
+  border: 1px solid #ffe03c;
   border-radius: 20px;
   background: #ffe03c;
   padding: 22px 53px 18px;
@@ -447,6 +465,10 @@ a {
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
   text-align: center;
+}
+.main__btn:hover {
+  border-color: #3f3f3f;
+  background: transparent;
 }
 .main__info {
   display: -webkit-box;
@@ -779,6 +801,9 @@ a {
 }
 .sidebar__button-btn {
   display: inline-block;
+  -webkit-transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  border: 1px solid #ffe03c;
   border-radius: 15px;
   background: #FFE03C;
   padding: 18px 86px;
@@ -790,6 +815,10 @@ a {
   letter-spacing: -0.02em;
   text-align: center;
   text-decoration: none;
+}
+.sidebar__button-btn:hover {
+  border-color: #3f3f3f;
+  background: transparent;
 }
 
 .bottom {
@@ -1122,7 +1151,10 @@ a {
 }
 .sale__btn {
   display: inline-block;
+  -webkit-transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
   margin-bottom: 42px;
+  border: 1px solid #ffe03c;
   border-radius: 15px;
   background: #FFE03C;
   padding: 13px 54px;
@@ -1134,6 +1166,10 @@ a {
   letter-spacing: -0.02em;
   text-align: center;
   text-decoration: none;
+}
+.sale__btn:hover {
+  border-color: #3f3f3f;
+  background: transparent;
 }
 .sale__img {
   border-radius: 30px;
@@ -1226,7 +1262,10 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
   margin-top: auto;
+  border: 1px solid #ffe03c;
   border-radius: 15px;
   background: #FFE03C;
   padding: 13px 49px;
@@ -1237,6 +1276,10 @@ a {
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
   text-align: center;
+}
+.process__item-btn:hover {
+  border-color: #3f3f3f;
+  background: transparent;
 }
 .process .item__social {
   display: -webkit-box;
@@ -1337,9 +1380,12 @@ a {
   display: flex;
   -ms-flex-item-align: self-start;
       align-self: self-start;
+  -webkit-transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
   margin-top: 28px;
   outline: none;
   border: none;
+  border: 1px solid #ffe03c;
   padding: 1.015625vw 6.40625vw;
   color: #2D2D2D;
   font-style: normal;
@@ -1347,6 +1393,10 @@ a {
   font-size: 1.09375vw;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
+}
+.price__btn:hover {
+  border-color: #3f3f3f;
+  background: transparent;
 }
 .price__social {
   display: -webkit-box;
@@ -1920,6 +1970,9 @@ a {
   margin-top: 62px;
 }
 .find__btn {
+  -webkit-transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  border: 1px solid #ffe03c;
   padding: 18px 106px;
   color: #2d2d2d;
   font-weight: 700;
@@ -1928,6 +1981,10 @@ a {
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
   text-align: center;
+}
+.find__btn:hover {
+  border-color: #3f3f3f;
+  background: transparent;
 }
 .find__map {
   padding-right: 38px;
@@ -2060,6 +2117,9 @@ a {
 .footer__btn {
   display: inline-block;
   position: relative;
+  -webkit-transition: background 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease;
+  border: 1px solid #ffe03c;
   border-radius: 20px;
   background: #ffe03c;
   padding: 12.5px 47px;
@@ -2070,6 +2130,10 @@ a {
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
   text-align: center;
+}
+.footer__btn:hover {
+  border-color: #3f3f3f;
+  background: transparent;
 }
 .footer__btn:before {
   display: inline-block;
