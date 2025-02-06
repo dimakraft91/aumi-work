@@ -34,6 +34,15 @@
     width: 34px;
     height: 34px;
   }
+  .main__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .main__title {
     margin-top: 31px;
   }
@@ -45,6 +54,15 @@
   }
   .main__info-item:not(:last-child) {
     margin-right: 28px;
+  }
+  .main__right {
+    overflow: hidden;
+  }
+  .main__right-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 400px;
   }
   .sidebar__left-img {
     max-width: 100%;

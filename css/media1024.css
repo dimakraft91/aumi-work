@@ -63,6 +63,12 @@
   .main__info-text {
     font-size: 12px;
   }
+  .main__right-img {
+    position: absolute;
+    top: -30%;
+    left: -20%;
+    width: 650px;
+  }
   .choice__title {
     margin-bottom: 10px;
     padding-top: 50px;

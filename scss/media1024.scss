@@ -127,7 +127,12 @@
 
 	.main__right {}
 
-	.main__right-img {}
+	.main__right-img {
+		position: absolute;
+		top: -30%;
+		left: -20%;
+		width: 650px;
+	}
 
 	// main
 

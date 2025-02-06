@@ -104,7 +104,12 @@
 
 	.main__right {}
 
-	.main__right-img {}
+	.main__right-img {
+		position: absolute;
+		top: -10%;
+		left: -35%;
+		width: 450px;
+	}
 
 	// main
 
