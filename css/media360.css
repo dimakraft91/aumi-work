@@ -5,7 +5,8 @@
   .title {
     font-size: 23px;
   }
-  .header__top, .header__bottom {
+  .header__top,
+  .header__bottom {
     display: none;
   }
   .header-mob {
@@ -29,9 +30,9 @@
     margin-right: 4px;
   }
   .header__right-img {
+    background-size: contain;
     width: 34px;
     height: 34px;
-    background-size: contain;
   }
   .main__title {
     margin-top: 31px;
@@ -45,21 +46,6 @@
   .main__info-item:not(:last-child) {
     margin-right: 28px;
   }
-  .sidebar__item {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 37px 24px 65px;
-    margin-bottom: 13px;
-  }
-  .sidebar__left {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-    padding: 21px 25px;
-    margin-right: 0;
-  }
   .sidebar__left-img {
     max-width: 100%;
     height: 100%;
@@ -68,37 +54,37 @@
     margin-bottom: 28px;
   }
   .sidebar__right-title {
-    font-size: 23px;
-    padding-top: 0;
     margin-bottom: 10px;
+    padding-top: 0;
+    font-size: 23px;
   }
   .sidebar__right-description {
-    font-size: 12px;
     margin-bottom: 22px;
+    font-size: 12px;
   }
   .sidebar__button-btn {
-    font-size: 12px;
     padding: 9px 46px;
+    font-size: 12px;
   }
   .grade__bottom {
     grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 50px;
     gap: 13px;
+    margin-bottom: 50px;
   }
   .grade__bottom-item {
     padding: 32px 24px;
   }
   .grade__bottom-title {
-    font-size: 16px;
     margin-bottom: 8px;
+    font-size: 16px;
   }
   .grade__bottom-description {
-    font-size: 12px;
     max-width: 43.140625vw;
+    font-size: 12px;
   }
   .talk__title {
-    padding-top: 50px;
     margin-top: 0;
+    padding-top: 50px;
   }
   .title:after {
     display: none;
@@ -107,8 +93,8 @@
     margin-bottom: 42px;
   }
   .talk__bottom {
-    margin-bottom: 70px;
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 70px;
   }
   .talk__bottom-item:not(:first-child) {
     display: none;
@@ -138,8 +124,8 @@
     font-size: 4.1666666667vw;
   }
   .talk .item__description {
-    font-size: 14px;
     max-width: 68.75vw;
+    font-size: 14px;
   }
   .talk .item__raiting {
     margin-left: 13.9583333333vw;
@@ -171,13 +157,14 @@
   .choice__col {
     margin-top: 40px;
   }
-  .choice__col .second-child, .choice__col .last-child {
+  .choice__col .second-child,
+  .choice__col .last-child {
     border-radius: 20px;
   }
   .choice__item:after {
+    background-size: contain;
     width: 30px;
     height: 30px;
-    background-size: contain;
   }
   .process {
     padding-bottom: 70px;
@@ -206,15 +193,15 @@
     background: unset;
   }
   .process__step-number:not(:last-child):after {
-    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    z-index: 1;
     background: url("../img/process/border-dashed-mob.svg");
     width: 1px;
     height: 123px;
-    position: absolute;
-    display: inline-block;
-    left: 20px;
-    top: 40px;
-    z-index: 1;
+    content: "";
   }
   .process__step-number:not(:last-child) {
     margin-right: 0;
@@ -272,20 +259,20 @@
     margin-bottom: 30px;
   }
   .faq__item {
-    padding-bottom: 40px;
     margin-bottom: 32px;
+    padding-bottom: 40px;
   }
   .faq__item-text {
-    font-size: 12px;
     padding-right: 24px;
+    font-size: 12px;
   }
   .faq__item-text:after {
-    width: 17px;
-    height: 17px;
-    background-size: contain;
     -webkit-transform: translateY(8.5px);
         -ms-transform: translateY(8.5px);
             transform: translateY(8.5px);
+    background-size: contain;
+    width: 17px;
+    height: 17px;
   }
   .company {
     padding-top: 70px;
@@ -306,20 +293,20 @@
     display: contents;
   }
   .company__top {
-    padding: 0 5vw 9.1666666667vw 5vw;
     margin-bottom: 7px;
+    padding: 0 5vw 9.1666666667vw 5vw;
   }
   .company__title {
     padding-top: 36px;
   }
   .company__block {
-    margin-bottom: 13px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 13px;
   }
   .company__block-item {
     padding: 1.0416666667vw 2.7083333333vw;
@@ -328,11 +315,11 @@
     max-width: unset;
   }
   .company__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
   }
   .company__right .company__bottom {
     padding: 3.3333333333vw 0 5.8333333333vw 9.1666666667vw;
@@ -347,8 +334,8 @@
     font-size: 2.5vw;
   }
   .services__title {
-    padding-top: 70px;
     margin-bottom: 20px;
+    padding-top: 70px;
   }
   .services__top {
     grid-template-columns: repeat(1, 1fr);
@@ -367,8 +354,8 @@
     margin-bottom: 23px;
   }
   .news__bottom {
+    grid-template-columns: repeat(2, 1fr);
     gap: 13px;
     padding-bottom: 70px;
-    grid-template-columns: repeat(2, 1fr);
   }
 }
