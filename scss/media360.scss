@@ -367,11 +367,11 @@
 
 	.item-description {}
 
-	.second-child {}
-
-	.third-child {}
-
-	.last-child {}
+	.second-child,
+	.third-child,
+	.last-child {
+		border-radius: 20px;
+	}
 
 	// choice
 
