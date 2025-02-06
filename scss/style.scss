@@ -383,6 +383,22 @@ a {
 	&__right-link {
 		display: flex;
 		align-items: center;
+		transition: 0.2s;
+		border-radius: 100%;
+		overflow: hidden;
+		color: #595858;
+
+		& svg path {
+			transition: 0.2s;
+		}
+
+		&:hover {
+			background: #ffe03c;
+
+			& svg path {
+				fill: #fff;
+			}
+		}
 	}
 
 	&__right-img {}
@@ -446,7 +462,9 @@ a {
 
 	&__btn {
 		display: inline-block;
+		transition: background 0.2s ease, border-color 0.2s ease;
 		margin-bottom: 31px;
+		border: 1px solid #ffe03c;
 		border-radius: 20px;
 		background: #ffe03c;
 		padding: 22px 53px 18px;
@@ -456,6 +474,11 @@ a {
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
 		text-align: center;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 	}
 
 	&__info {
@@ -800,6 +823,8 @@ a {
 
 	&__button-btn {
 		display: inline-block;
+		transition: background 0.2s ease, border-color 0.2s ease;
+		border: 1px solid #ffe03c;
 		border-radius: 15px;
 		background: #FFE03C;
 		padding: 18px 86px;
@@ -811,6 +836,11 @@ a {
 		letter-spacing: -0.02em;
 		text-align: center;
 		text-decoration: none;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 	}
 }
 
@@ -1171,7 +1201,9 @@ a {
 
 	&__btn {
 		display: inline-block;
+		transition: background 0.2s ease, border-color 0.2s ease;
 		margin-bottom: 42px;
+		border: 1px solid #ffe03c;
 		border-radius: 15px;
 		background: #FFE03C;
 		padding: 13px 54px;
@@ -1183,6 +1215,11 @@ a {
 		letter-spacing: -0.02em;
 		text-align: center;
 		text-decoration: none;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 	}
 
 	&__right {}
@@ -1285,7 +1322,9 @@ a {
 	&__item-btn {
 		display: flex;
 		justify-content: center;
+		transition: background 0.2s ease, border-color 0.2s ease;
 		margin-top: auto;
+		border: 1px solid #ffe03c;
 		border-radius: 15px;
 		background: #FFE03C;
 		padding: 13px 49px;
@@ -1296,6 +1335,11 @@ a {
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
 		text-align: center;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 	}
 
 	&__item-social {}
@@ -1409,9 +1453,11 @@ a {
 	&__btn {
 		display: flex;
 		align-self: self-start;
+		transition: background 0.2s ease, border-color 0.2s ease;
 		margin-top: 28px;
 		outline: none;
 		border: none;
+		border: 1px solid #ffe03c;
 		padding: calc(13 / 1280 * 100vw) calc(82 / 1280 * 100vw);
 		color: #2D2D2D;
 		font-style: normal;
@@ -1419,6 +1465,11 @@ a {
 		font-size: calc(14 / 1280 * 100vw);
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 	}
 
 	&__social {
@@ -2102,6 +2153,8 @@ a {
 	}
 
 	&__btn {
+		transition: background 0.2s ease, border-color 0.2s ease;
+		border: 1px solid #ffe03c;
 		padding: 18px 106px;
 		color: #2d2d2d;
 		font-weight: 700;
@@ -2110,6 +2163,11 @@ a {
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
 		text-align: center;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 	}
 
 	&__map {
@@ -2252,6 +2310,8 @@ a {
 	&__btn {
 		display: inline-block;
 		position: relative;
+		transition: background 0.2s ease, border-color 0.2s ease;
+		border: 1px solid #ffe03c;
 		border-radius: 20px;
 		background: #ffe03c;
 		padding: 12.5px 47px;
@@ -2262,6 +2322,11 @@ a {
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
 		text-align: center;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 
 		&:before {
 			display: inline-block;
