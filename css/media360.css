@@ -204,11 +204,6 @@
   .process__title {
     margin-bottom: 32px;
   }
-  .process__content {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .process__step {
     display: -webkit-box;
     display: -ms-flexbox;
