@@ -101,7 +101,8 @@
 		position: relative;
 		top: 0;
 		left: 0;
-		width: 400px;
+		width: clamp(18.125rem, 5rem + 65.63vw, 24.688rem);
+		/* 290px 395px */
 	}
 
 	// main
