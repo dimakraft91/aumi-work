@@ -644,21 +644,83 @@ a {
 		position: relative;
 		justify-content: center;
 		align-items: center;
+		box-sizing: border-box;
 		margin-right: 16px;
 		margin-right: 37px;
 		border-radius: 15px;
-		background-color: #fff;
-		padding: 36px 72px;
+		background: #fff;
+		padding-right: 70px;
+		padding-bottom: 36px;
+		// padding: 36px clamp(2.875rem, -3.625rem + 10.16vw, 4.5rem);
+		padding-left: 70px;
+		height: clamp(13rem, 1rem + 18.75vw, 16rem);
+		/* 208px 256px */
 
-		&:before {
-			display: inline-block;
+		&-top {
+			display: flex;
+			position: relative;
+			justify-content: center;
+			align-items: center;
+			box-sizing: border-box;
+			border: 1px dashed #0000001c;
+			border-radius: 22px;
+			width: 241px;
+			height: 159px;
+
+			img {
+				display: flex;
+				width: 215px;
+				height: 116px;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+
+		.title-wrapper {
+			display: flex;
 			position: absolute;
-			bottom: 115px;
-			left: -45px;
-			// background: url("../img/grade/arrow-left.png");
-			width: 31px;
-			height: 31px;
-			content: "";
+			bottom: 0;
+			left: 0;
+			justify-content: center;
+			align-items: center;
+			border-top-right-radius: 20px;
+			background: #f7f7f7;
+			padding-top: 10px;
+			padding-right: 15px;
+
+			&::after,
+			&::before {
+				position: absolute;
+				box-shadow: -10px 5px 0 5px #f7f7f7;
+				border-bottom-left-radius: 20px;
+				background: transparent;
+				width: 20px;
+				height: 20px;
+				content: '';
+			}
+
+			&::before {
+				top: -20px;
+				left: 0;
+			}
+
+			&::after {
+				right: -20px;
+				bottom: 0;
+			}
+		}
+
+		&-title {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid #000;
+			border-radius: 20px;
+			padding: 9px 50px;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 130%;
+			letter-spacing: -0.02em;
 		}
 
 	}
