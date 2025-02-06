@@ -81,7 +81,6 @@
     padding: 9px 46px;
   }
   .grade__bottom {
-    -ms-grid-columns: 1fr;
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 50px;
     gap: 13px;
@@ -109,7 +108,6 @@
   }
   .talk__bottom {
     margin-bottom: 70px;
-    -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
   }
   .talk__bottom-item:not(:first-child) {
@@ -286,6 +284,7 @@
     height: 17px;
     background-size: contain;
     -webkit-transform: translateY(8.5px);
+        -ms-transform: translateY(8.5px);
             transform: translateY(8.5px);
   }
   .company {
@@ -332,9 +331,7 @@
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
   }
   .company__right .company__bottom {
@@ -354,14 +351,12 @@
     margin-bottom: 20px;
   }
   .services__top {
-    -ms-grid-columns: (1fr)[1];
     grid-template-columns: repeat(1, 1fr);
   }
   .services__item {
     padding: 11px 36px 12px 87px;
   }
   .services__bottom {
-    -ms-grid-columns: 1fr;
     grid-template-columns: repeat(1, 1fr);
     gap: 13px;
   }
@@ -374,7 +369,6 @@
   .news__bottom {
     gap: 13px;
     padding-bottom: 70px;
-    -ms-grid-columns: 1fr 13px 1fr;
     grid-template-columns: repeat(2, 1fr);
   }
 }
