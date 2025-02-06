@@ -479,11 +479,16 @@ a {
 		}
 	}
 
-	&__right {}
+	&__right {
+		position: relative;
+		flex: auto;
+	}
 
 	&__right-img {
-		max-width: 100%;
-		height: auto;
+		position: absolute;
+		top: -47%;
+		left: -25%;
+		width: 879px;
 	}
 }
 

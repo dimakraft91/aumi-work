@@ -459,9 +459,17 @@ a {
 .main__info-text:nth-child(2) {
   font-weight: 500;
 }
+.main__right {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
 .main__right-img {
-  max-width: 100%;
-  height: auto;
+  position: absolute;
+  top: -47%;
+  left: -25%;
+  width: 879px;
 }
 
 .grade {
