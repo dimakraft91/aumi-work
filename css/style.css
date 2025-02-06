@@ -859,9 +859,11 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+.choice__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 .choice__title {
   margin-top: 0;
@@ -881,34 +883,41 @@ a {
   max-width: 100%;
   height: 100%;
 }
-
 .choice__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.choice__col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-top: 154px;
-  margin-right: 30px;
-}
-.choice__col:last-child {
-  margin-right: 0;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(2, 1fr);
+  -webkit-column-gap: clamp(0.625rem, -4.375rem + 7.81vw, 1.875rem);
+     -moz-column-gap: clamp(0.625rem, -4.375rem + 7.81vw, 1.875rem);
+          column-gap: clamp(0.625rem, -4.375rem + 7.81vw, 1.875rem);
+  /* 10px 30px */
+  row-gap: clamp(0.625rem, -2.625rem + 5.08vw, 1.438rem);
+  /* 10px  23px */
+  padding-top: clamp(3.438rem, 0.938rem + 3.91vw, 4.063rem);
+  /* 55px 60px */
 }
 .choice__item {
   position: relative;
   border-radius: 20px;
   background: #FFFFFF;
-  padding: 7rem 3.4rem 2.6rem 30px;
+  padding: 65px 30px 2.6rem 26px;
+  height: auto;
+}
+.choice__item:nth-child(1) {
+  grid-row: 2/4;
+  grid-column: 1;
+}
+.choice__item:nth-child(2) {
+  grid-row: 4/6;
+  grid-column: 1;
+}
+.choice__item:nth-child(3) {
+  grid-row: 1/3;
+  grid-column: 2;
+}
+.choice__item:nth-child(4) {
+  grid-row: 3/6;
+  grid-column: 2;
   height: 100%;
 }
 .choice__item:after {
@@ -921,9 +930,11 @@ a {
   height: 45px;
   content: "";
 }
-.choice__item:first-child {
-  margin-bottom: 20px;
+.choice__item-description {
+  max-width: 30ch;
+  text-wrap: balance;
 }
+
 .last-child {
   border-radius: 20px 20px 0 0;
 }
