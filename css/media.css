@@ -1,0 +1,274 @@
+@media screen and (min-width: 1280px) {
+  .grade__bottom {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 13px 1fr 13px 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 13px;
+    margin: 0 auto 70px;
+    max-width: 1080px;
+  }
+  .grade__bottom-item {
+    padding-left: 34px;
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #F7F7F7;
+    border-radius: 20px;
+    position: relative;
+  }
+  .grade__bottom-title {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 7px;
+  }
+  .grade__bottom-description {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    max-width: 181px;
+    padding-bottom: 60px;
+  }
+  .sale__item {
+    padding: 9px 30px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  .company__title {
+    padding-top: 40px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  .company__block-item {
+    font-size: 14px;
+    padding: 5px 30px;
+  }
+  .company__block-item:first-child {
+    margin-right: 10px;
+  }
+  .company__description {
+    max-width: 496px;
+    font-size: 14px;
+  }
+  .company__bottom-item {
+    padding: 20px 0;
+    margin-right: 58px;
+  }
+  .company__bottom-item:first-child {
+    padding-left: 33px;
+  }
+  .company__bottom-number {
+    font-size: 33px;
+  }
+  .company__bottom-description {
+    font-size: 12px;
+    max-width: 81px;
+  }
+  .company__top {
+    padding: 0 40px;
+    margin-bottom: 10px;
+    padding-bottom: 48px;
+  }
+  .price__title {
+    font-size: 35px;
+  }
+  .price__description {
+    font-size: 14px;
+  }
+  .price__input {
+    padding-right: 269px;
+  }
+  .price__btn {
+    padding: 1.015625vw 6.40625vw;
+    font-size: 1.09375vw;
+  }
+  .price__social-img {
+    width: 3.75vw;
+    height: 3.75vw;
+  }
+  .price__social-img:first-child {
+    margin-right: 1.328125vw;
+  }
+  .price__social-text {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.09375vw;
+    letter-spacing: -0.03em;
+    color: #877E7E;
+    opacity: 0.58;
+    margin-top: 7px;
+  }
+  .services__bottom {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 40px 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 25px;
+  }
+  .services__bottom-item {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px 25px 22px 25px;
+    position: relative;
+  }
+  .services__bottom-item:nth-child(2):before {
+    content: "";
+    background: url("../img/services/services-img-2.svg");
+    width: 219px;
+    height: 129px;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+    bottom: 0;
+  }
+  .services__bottom-item:first-child .services__bottom-block .services__bottom-img {
+    right: 50px;
+  }
+  .services__bottom-title {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 10px;
+    font-family: "Noto Sans Syriac", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #000000;
+    min-width: 417px;
+  }
+  .services__bottom-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .services__bottom-description {
+    max-width: 226px;
+    position: relative;
+  }
+  .services__bottom-description:not(:last-child):before {
+    content: "";
+    background: url("../img/services/heart.png");
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 50px;
+  }
+  .services__bottom-description span {
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    opacity: 0.4;
+  }
+  .talk__bottom {
+    gap: 20px;
+  }
+  .talk__bottom-link a {
+    font-size: 12px;
+  }
+  .talk .item__title {
+    font-size: 20px;
+  }
+  .talk .item__description {
+    font-size: 14px;
+    max-width: 330px;
+  }
+  .talk .item__raiting {
+    margin-left: 67px;
+  }
+  .talk .item__raiting-img {
+    margin-right: 13px;
+  }
+  .talk .item__raiting-text {
+    font-size: 12px;
+  }
+  .item {
+    padding-left: 45px;
+    padding-top: 32px;
+  }
+  .talk__bottom-ava img {
+    width: 51px;
+    height: 53px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .choice__col:not(:last-child) {
+    margin-right: 10px;
+  }
+  .choice__item:first-child, .choice__item:nth-child(3) {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .header .header__top {
+    padding: 1.09375vw 2.5vw;
+  }
+  .header .header__logo {
+    width: 5.625vw;
+  }
+  .header .header__top-nav {
+    margin-left: 3.515625vw;
+  }
+  .header .header__top-item:not(:last-child) {
+    margin-right: 2.34375vw;
+  }
+  .header .header__top-link {
+    font-size: clamp(0.375rem, 0.228rem + 0.65vw, 0.75rem);
+  }
+  .header .header__contacts-val {
+    font-size: 0.9375vw;
+  }
+  .header .header__contacts-social {
+    padding-left: 1.71875vw;
+    padding-right: 1.40625vw;
+  }
+  .header .header__social-link:first-child {
+    margin-right: 0.46875vw;
+  }
+  .header .header__social-img {
+    width: 2.1875vw;
+    height: 2.1875vw;
+  }
+  .header .header__phone {
+    font-size: 1.25vw;
+  }
+  .header .header__bottom {
+    padding: 0.46875vw 2.5vw;
+  }
+  .header .header__bottom-item:not(:last-child) {
+    margin-right: 2.03125vw;
+  }
+  .header .header__bottom-link {
+    font-size: 0.9375vw;
+  }
+  .header .header__right-btn {
+    font-size: 1.09375vw;
+    padding: 0.3125vw 1.40625vw 0.46875vw;
+    margin-right: 0.625vw;
+  }
+  .header .header__right-link:not(:last-child) {
+    margin-right: 0.625vw;
+  }
+}
