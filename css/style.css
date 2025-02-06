@@ -314,12 +314,17 @@ a {
   height: 28px;
 }
 .header__phone {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: #000;
   font-weight: 700;
   font-size: 16px;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
   text-align: center;
+}
+.header__phone:hover {
+  color: #999;
 }
 .header__bottom {
   display: -webkit-box;
