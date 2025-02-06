@@ -624,15 +624,16 @@ a {
           box-sizing: border-box;
   border: 1px dashed rgba(0, 0, 0, 0.1098039216);
   border-radius: 22px;
-  width: 241px;
-  height: 159px;
+  padding: clamp(0.938rem, -1.563rem + 3.91vw, 1.563rem) clamp(0.938rem, -4.063rem + 7.81vw, 2.188rem);
 }
 .sidebar__left-top img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 215px;
-  height: 116px;
+  width: clamp(11.625rem, 4.375rem + 11.33vw, 13.438rem);
+  /* 186px 215px */
+  height: clamp(6.375rem, 2.875rem + 5.47vw, 7.25rem);
+  /* 102px 116px */
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;

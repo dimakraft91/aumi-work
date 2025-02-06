@@ -651,7 +651,6 @@ a {
 		background: #fff;
 		padding-right: 70px;
 		padding-bottom: 36px;
-		// padding: 36px clamp(2.875rem, -3.625rem + 10.16vw, 4.5rem);
 		padding-left: 70px;
 		height: clamp(13rem, 1rem + 18.75vw, 16rem);
 		/* 208px 256px */
@@ -664,13 +663,14 @@ a {
 			box-sizing: border-box;
 			border: 1px dashed #0000001c;
 			border-radius: 22px;
-			width: 241px;
-			height: 159px;
+			padding: clamp(0.938rem, -1.563rem + 3.91vw, 1.563rem) clamp(0.938rem, -4.063rem + 7.81vw, 2.188rem);
 
 			img {
 				display: flex;
-				width: 215px;
-				height: 116px;
+				width: clamp(11.625rem, 4.375rem + 11.33vw, 13.438rem);
+				/* 186px 215px */
+				height: clamp(6.375rem, 2.875rem + 5.47vw, 7.25rem);
+				/* 102px 116px */
 				object-fit: cover;
 				object-position: center;
 			}
