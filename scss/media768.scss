@@ -197,6 +197,14 @@
 	//grade
 
 	// choice
+	.choice__container {
+		display: grid;
+
+	}
+
+	.choice__right {
+		grid-row: 2;
+	}
 
 	.choice__item:after {
 		background: unset;
