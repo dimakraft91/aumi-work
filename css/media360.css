@@ -193,6 +193,11 @@
     width: 30px;
     height: 30px;
   }
+  .second-child,
+  .third-child,
+  .last-child {
+    border-radius: 20px;
+  }
   .process {
     padding-bottom: 70px;
   }

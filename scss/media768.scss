@@ -207,11 +207,13 @@
 	}
 
 	.choice__item-title {
-		font-size: calc(16 / 768 * 100vw);
+		font-size: clamp(0.875rem, 0.786rem + 0.45vw, 1rem);
+		/* 14px 16px */
 	}
 
 	.choice__item-description {
-		font-size: calc(12 / 768 * 100vw);
+		font-size: clamp(0.688rem, 0.643rem + 0.22vw, 0.75rem);
+		/* 11px 12px */
 	}
 
 	// choice
