@@ -102,6 +102,7 @@
   }
   .sidebar__right-title {
     margin-bottom: 10px;
+    padding-top: 0;
   }
   .sidebar__right-description {
     margin-bottom: 21px;

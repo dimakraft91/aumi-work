@@ -89,7 +89,6 @@ html {
 }
 
 body {
-	overflow-x: hidden;
 	font-family: "Manrope", sans-serif;
 }
 
@@ -535,9 +534,14 @@ a {
 			position: absolute;
 			right: 0;
 			bottom: 0;
-			background: url("../img/grade/grade-bottom-1.svg");
+			z-index: 0;
+			border-bottom-right-radius: 20px;
+			background: url("../img/grade/grade-bottom-1.png");
+			background-size: cover;
+			background-repeat: no-repeat;
 			width: 146px;
 			height: 96px;
+			overflow: hidden;
 			content: "";
 		}
 
@@ -547,9 +551,12 @@ a {
 				position: absolute;
 				right: 0;
 				bottom: 0;
+				z-index: 0;
+				border-bottom-right-radius: 20px;
 				background: url("../img/grade/grade-bottom-2.svg");
 				width: 142px;
 				height: 114px;
+				overflow: hidden;
 				content: "";
 			}
 		}
@@ -560,9 +567,12 @@ a {
 				position: absolute;
 				right: 0;
 				bottom: 0;
+				z-index: 0;
+				border-bottom-right-radius: 20px;
 				background: url("../img/grade/grade-bottom-3.svg");
 				width: 158px;
 				height: 94px;
+				overflow: hidden;
 				content: "";
 			}
 		}
@@ -570,6 +580,11 @@ a {
 		&:last-child {
 			background-color: #FFE03C;
 		}
+	}
+
+	&__item-text {
+		position: relative;
+		z-index: 1;
 	}
 
 	&__bottom-title {
@@ -584,7 +599,7 @@ a {
 
 	&__bottom-description {
 		padding-bottom: 60px;
-		max-width: calc(181 / 1280 * 100vw);
+		max-width: 22ch;
 		color: #000000;
 		font-style: normal;
 		font-weight: 500;
@@ -622,13 +637,12 @@ a {
 		display: flex;
 		margin-bottom: 20px;
 		padding: 2.5rem 5.5rem;
-
-
 	}
 
 	&__left {
 		display: flex;
 		position: relative;
+		justify-content: center;
 		align-items: center;
 		margin-right: 16px;
 		margin-right: 37px;
@@ -674,12 +688,17 @@ a {
 		text-decoration: none;
 	}
 
-	&__right {}
+	&__right {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+	}
 
 	&__right-title {
 		margin-top: 0;
 		margin-bottom: 6px;
-		padding-top: 25px;
+		padding-top: 0;
 		color: #000000;
 		font-style: normal;
 		font-weight: 500;
