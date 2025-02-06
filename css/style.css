@@ -262,12 +262,17 @@ a {
           align-items: center;
 }
 .header__top-link {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: #000;
   font-weight: 500;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
   text-align: center;
+}
+.header__top-link:hover {
+  color: #999;
 }
 .header__contacts {
   display: grid;
@@ -351,12 +356,17 @@ a {
   list-style: none;
 }
 .header__bottom-link {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: #000;
   font-weight: 500;
   font-size: 12px;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.02em;
   text-align: center;
+}
+.header__bottom-link:hover {
+  color: #999;
 }
 .header__right {
   display: -webkit-box;
@@ -2069,6 +2079,8 @@ a {
 .footer__phone {
   display: inline-block;
   position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin-bottom: 15px;
   margin-left: 43px;
   color: #181818;
@@ -2077,6 +2089,9 @@ a {
   line-height: 110%;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.05em;
+}
+.footer__phone:hover {
+  color: #999;
 }
 .footer__phone:before {
   display: inline-block;
@@ -2091,6 +2106,8 @@ a {
 .footer__mail {
   display: inline-block;
   position: relative;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   margin-bottom: 13px;
   margin-left: 40px;
   color: #181818;
@@ -2099,6 +2116,9 @@ a {
   line-height: 110%;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.05em;
+}
+.footer__mail:hover {
+  color: #999;
 }
 .footer__mail:before {
   display: inline-block;
@@ -2279,11 +2299,16 @@ a {
   margin-bottom: 10px;
 }
 .footer__col-link {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   color: #181818;
   font-weight: 500;
   font-size: 14px;
   font-family: "Manrope", sans-serif;
   letter-spacing: -0.05em;
+}
+.footer__col-link:hover {
+  color: #999;
 }
 .footer__col-details {
   opacity: 0.34;
