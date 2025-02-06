@@ -354,12 +354,16 @@ a {
 
 	&__right {
 		display: flex;
+		column-gap: 4px;
+		align-items: center;
 	}
 
 	&__right-btn {
 		display: flex;
 		align-items: center;
-		margin-right: 8px;
+		transition: background 0.2s ease, border-color 0.2s ease;
+		margin-right: 2px;
+		border: 1px solid #ffe03c;
 		border-radius: 20px;
 		background: #ffe03c;
 		padding: 4px 18px 6px;
@@ -369,12 +373,16 @@ a {
 		font-family: "Manrope", sans-serif;
 		letter-spacing: -0.02em;
 		text-align: center;
+
+		&:hover {
+			border-color: #3f3f3f;
+			background: transparent;
+		}
 	}
 
 	&__right-link {
-		&:not(:last-child) {
-			margin-right: 8px;
-		}
+		display: flex;
+		align-items: center;
 	}
 
 	&__right-img {}
@@ -490,6 +498,7 @@ a {
 		left: -25%;
 		width: clamp(43.75rem, -1rem + 69.92vw, 54.938rem);
 		/* 700px 879px  */
+		pointer-events: none;
 	}
 }
 
