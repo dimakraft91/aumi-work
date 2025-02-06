@@ -42,6 +42,7 @@
   }
   .main {
     padding-bottom: 47px;
+    overflow: hidden;
   }
   .main__title {
     margin-top: 45px;
@@ -67,7 +68,7 @@
     position: absolute;
     top: -30%;
     left: -20%;
-    width: 650px;
+    width: clamp(28.125rem, -9.375rem + 78.13vw, 40.625rem);
   }
   .choice__title {
     margin-bottom: 10px;
