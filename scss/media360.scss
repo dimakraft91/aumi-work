@@ -400,44 +400,10 @@
 		flex-direction: column;
 	}
 
-	.process__step-number {
-		margin-right: 0;
-
-		&:before {
-			background: unset;
-		}
-
-		&:not(:last-child):after {
-			display: inline-block;
-			position: absolute;
-			top: 40px;
-			left: 20px;
-
-			z-index: 1;
-			background: url("../img/process/border-dashed-mob.svg");
-			width: 1px;
-			height: 123px;
-			content: "";
-		}
-	}
-
-	.process__step-number:not(:last-child) {
-		margin-right: 0;
-		margin-bottom: 122px;
-	}
-
-	.process__bottom {
-		flex-direction: column;
-		margin-left: 61px;
-	}
 
 	.bottom {}
 
-	.process__item {
-		&:not(:last-child) {
-			margin-bottom: 43px;
-		}
-	}
+	.process__item {}
 
 	.process__item-title {}
 

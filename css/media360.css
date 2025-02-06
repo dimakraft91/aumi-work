@@ -213,37 +213,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .process__step-number {
-    margin-right: 0;
-  }
-  .process__step-number:before {
-    background: unset;
-  }
-  .process__step-number:not(:last-child):after {
-    display: inline-block;
-    position: absolute;
-    top: 40px;
-    left: 20px;
-    z-index: 1;
-    background: url("../img/process/border-dashed-mob.svg");
-    width: 1px;
-    height: 123px;
-    content: "";
-  }
-  .process__step-number:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 122px;
-  }
-  .process__bottom {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-left: 61px;
-  }
-  .process__item:not(:last-child) {
-    margin-bottom: 43px;
-  }
   .process__item-description {
     margin-bottom: 14px;
   }
