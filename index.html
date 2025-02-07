@@ -4,6 +4,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<meta name="apple-mobile-web-app-title" content="Ауми" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<link rel="preload" href="fonts/Manrope-Medium.woff2" as="font" type="font/woff2" crossorigin />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
 	<link rel="stylesheet" href="css/media1024.css">
@@ -11,9 +18,7 @@
 	<link rel="stylesheet" href="css/media360.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Syriac:wght@100..900&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac:wght@100..900&display=swap" rel="stylesheet">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
 		rel="stylesheet">
@@ -61,12 +66,6 @@
 					</nav>
 					<div class="header__right">
 						<a href="" class="header__right-btn">Записаться на оценку</a>
-						<a href="" class="header__right-link"><img src="img/header/heart.svg" alt="heart"
-								class="header__right-img"></a>
-						<a href="" class="header__right-link"><img src="img/header/cart.svg" alt="cart"
-								class="header__right-img"></a>
-						<a href="" class="header__right-link"><img src="img/header/user.svg" alt="user"
-								class="header__right-img"></a>
 						<a href="" class="header__right-link">
 							<svg width="27" height="27" viewBox="0 0 27 27" fill="none"
 								xmlns="http://www.w3.org/2000/svg">
@@ -219,7 +218,11 @@
 					клиенту
 				</div>
 			</div>
-			<div class="choice__items">
+			<div class="choice__bottom">
+				<img src="img/choice/choice-img.svg" alt="choice-img" class="choice__bottom-img">
+			</div>
+
+			<div class="choice__right">
 				<div class="choice__item">
 					<div class="choice__item-title item-title">
 						<p>15 лет опыта</p>
@@ -228,7 +231,7 @@
 						<p>Помогаем покупать и продавать ювелирные украшения</p>
 					</div>
 				</div>
-				<div class="choice__item">
+				<div class="choice__item second-child">
 					<div class="choice__item-title item-title">
 						<p>Точная экспертиза</p>
 					</div>
@@ -236,7 +239,7 @@
 						<p>Мы высоко и точно оцениваем украшения</p>
 					</div>
 				</div>
-				<div class="choice__item">
+				<div class="choice__item third-child">
 					<div class="choice__item-title item-title">
 						<p>Высокая оценка</p>
 					</div>
@@ -244,7 +247,7 @@
 						<p>Выкупаем украшения дорого. </p>
 					</div>
 				</div>
-				<div class="choice__item">
+				<div class="choice__item last-child">
 					<div class="choice__item-title item-title">
 						<p>Удобно онлайн</p>
 					</div>
@@ -356,36 +359,31 @@
 		<div class="process__container container">
 			<h2 class="process__title title">Как проходит процесс работы</h2>
 			<div class="process__content">
-				<div class="process__step">
-					<div class="process__step-number">1</div>
-					<div class="process__step-number">2</div>
-					<div class="process__step-number">3</div>
+
+				<div class="process__item">
+					<p class="process__item-title item-title">Запись на оценку</p>
+					<p class="process__item-description item-description">Поможем оценить ваше украшение</p>
+					<a href="" class="process__item-btn btn">Связаться с нами</a>
 				</div>
-				<div class="process__bottom bottom">
-					<div class="process__item">
-						<p class="process__item-title item-title">Запись на оценку</p>
-						<p class="process__item-description item-description">Поможем оценить ваше украшение</p>
-						<a href="" class="process__item-btn btn">Связаться с нами</a>
-					</div>
-					<div class="process__item">
-						<p class="process__item-title item-title">Ждём вас по адресу: г. Москва, Лубянский проезд, д.
-							15, стр. 2</p>
-						<p class="process__item-description item-description">Поможем оценить ваше украшение</p>
-						<a href="" class="process__item-btn btn">Как добраться</a>
-					</div>
-					<div class="process__item">
-						<p class="process__item-title item-title">Выдаем до 5.000.000₽ в день обращения </p>
-						<p class="process__item-description item-description">бОльшие суммы бронируйте заранее</p>
-						<div class="process__item-social item__social">
-							<a href="" class="item__social-link"><img src="img/process/process-icon-1.svg"
-									alt="process-icon" class="item__social-img">
-							</a>
-							<a href="" class="item__social-link"><img src="img/process/process-icon-2.svg"
-									alt="process-icon" class="item__social-img"></a>
-							<span class="item__social-text">Отвечаем в течение 3х минут</span>
-						</div>
+				<div class="process__item">
+					<p class="process__item-title item-title">Ждём вас по адресу: г. Москва, Лубянский проезд, д.
+						15, стр. 2</p>
+					<p class="process__item-description item-description">Поможем оценить ваше украшение</p>
+					<a href="" class="process__item-btn btn">Как добраться</a>
+				</div>
+				<div class="process__item">
+					<p class="process__item-title item-title">Выдаем до 5.000.000₽ в день обращения </p>
+					<p class="process__item-description item-description">бОльшие суммы бронируйте заранее</p>
+					<div class="process__item-social item__social">
+						<a href="" class="item__social-link"><img src="img/process/process-icon-1.svg"
+								alt="process-icon" class="item__social-img">
+						</a>
+						<a href="" class="item__social-link"><img src="img/process/process-icon-2.svg"
+								alt="process-icon" class="item__social-img"></a>
+						<span class="item__social-text">Отвечаем в течение 3х минут</span>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
@@ -579,7 +577,7 @@
 					<div class="find__map">
 						<div class="find__map-wrap"><iframe class="find__iframe"
 								src="https://yandex.ru/map-widget/v1/?ll=37.638401%2C55.765565&masstransit%5BstopId%5D=station__9858910&mode=masstransit&tab=overview&z=14"
-								width="560" height="400" frameborder="1" allowfullscreen="true"></iframe></div>
+								width="100%" height="400" frameborder="1" allowfullscreen="true"></iframe></div>
 					</div>
 				</div>
 			</div>
@@ -616,54 +614,56 @@
 						<div class="footer__work-text">Без перерывов</div>
 					</div>
 				</div>
-				<div class="footer__row">
-					<ul class="footer__col">
-						<li class="footer__col-title">Ламбард</li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
-					</ul>
-					<ul class="footer__col">
-						<li class="footer__col-title">Каталог</li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
-					</ul>
-					<ul class="footer__col">
-						<li class="footer__col-title">О нас</li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
-						<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
-						<div class="footer__col-bottom">
-							<li class="footer__col-details">Ип Иван Иванович</li>
-							<li class="footer__col-details">3472364746743</li>
-						</div>
-					</ul>
-				</div>
+				<ul class="footer__col">
+					<li class="footer__col-title">Ламбард</li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
+				</ul>
+				<ul class="footer__col">
+					<li class="footer__col-title">Каталог</li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
+				</ul>
+				<ul class="footer__col">
+					<li class="footer__col-title">О нас</li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Условия</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Кейсы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Отзывы</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Гарантии</a></li>
+					<li class="footer__col-item"><a href="" class="footer__col-link">Частые вопросы</a></li>
+					<div class="footer__col-bottom">
+						<li class="footer__col-details">Ип Иван Иванович</li>
+						<li class="footer__col-details">3472364746743</li>
+					</div>
+				</ul>
 				<div class="footer__right">
 					<a href="" class="footer__right-up">Вверх</a>
 				</div>
 			</div>
 		</div>
 		<div class="footer__bottom">
-			<div class="footer__year">© 2009 – 2025 zu.ru ООО «Ауми «Ломбард»</div>
-			<div class="footer__privacy">Политика конфиденциальности</div>
-			<div class="footer__developer">Разработка сайта
-				<span class="footer__developer_bold">DKA-MEDIA</span>
+			<div class="container">
+				<div class="footer__bottom--wrapper">
+					<div class="footer__year">© 2009 – 2025 zu.ru ООО «Ауми «Ломбард»</div>
+					<div class="footer__privacy">Политика конфиденциальности</div>
+					<div class="footer__developer">Разработка сайта
+						<span class="footer__developer_bold">DKA-MEDIA</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>
