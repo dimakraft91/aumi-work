@@ -21,7 +21,9 @@
 
 	.header {}
 
-	.header__container {}
+	.header__container {
+		padding: 0 37px;
+	}
 
 	.container {}
 
@@ -43,11 +45,11 @@
 
 	.header__contacts {
 		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 	}
 
 	.header__contacts-val {
-		order: 1;
+		// order: 1;
 	}
 
 	.header__contacts-social {
@@ -97,7 +99,7 @@
 
 	.main__title {
 		margin-top: 45px;
-		font-size: 37px;
+		// font-size: 37px;
 	}
 
 	.main__description {
@@ -127,7 +129,12 @@
 
 	.main__right {}
 
-	.main__right-img {}
+	.main__right-img {
+		// position: absolute;
+		// top: -30%;
+		// left: -21%;
+		// width: 650px;
+	}
 
 	// main
 
@@ -209,7 +216,12 @@
 
 	.grade {}
 
-	.grade__container {}
+	.grade__container {
+		padding-right: clamp(3.125rem, -0.625rem + 7.81vw, 4.375rem);
+		/* 50px 70px */
+		padding-left: clamp(3.125rem, -0.625rem + 7.81vw, 4.375rem);
+		/* 50px 70px */
+	}
 
 	.container {}
 

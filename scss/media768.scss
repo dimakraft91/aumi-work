@@ -105,10 +105,10 @@
 	.main__right {}
 
 	.main__right-img {
-		position: absolute;
-		top: -10%;
-		left: -35%;
-		width: 450px;
+		// position: absolute;
+		// top: -10%;
+		// left: -35%;
+		// width: 450px;
 	}
 
 	// main
@@ -117,7 +117,12 @@
 
 	.grade {}
 
-	.grade__container {}
+	.grade__container {
+		padding-right: clamp(1.25rem, -0.404rem + 7.35vw, 3.125rem);
+		/* 20px 60px */
+		padding-left: clamp(1.25rem, -0.404rem + 7.35vw, 3.125rem);
+		/* 20px 60px */
+	}
 
 	.container {}
 
