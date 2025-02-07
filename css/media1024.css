@@ -3,9 +3,9 @@
     padding: 0 70px;
   }
   .title {
+    font-size: 27px;
     margin-bottom: 10px;
     padding-top: 50px;
-    font-size: 27px;
   }
   .description {
     font-size: 12px;
@@ -49,8 +49,8 @@
     margin-top: 16px;
   }
   .main__btn {
-    margin-bottom: 56px;
     padding: 16px 53px;
+    margin-bottom: 56px;
   }
   .main__info-item:not(:last-child) {
     margin-right: 33px;
@@ -62,18 +62,18 @@
     font-size: 12px;
   }
   .choice__title {
-    margin-bottom: 10px;
     padding-top: 50px;
+    margin-bottom: 10px;
   }
   .choice__items {
     gap: 10px;
   }
   .choice__item:after {
-    top: 14px;
-    right: 14px;
-    background-size: contain;
     width: 40px;
     height: 40px;
+    right: 14px;
+    top: 14px;
+    background-size: contain;
   }
   .choice__bottom-img {
     max-width: 100%;
@@ -92,8 +92,8 @@
     margin-top: 50px;
   }
   .sidebar__item {
-    margin-bottom: 24px;
     padding: 17px 39px;
+    margin-bottom: 24px;
   }
   .sidebar__left {
     padding: 17px 46px;
@@ -108,8 +108,8 @@
     margin-bottom: 21px;
   }
   .sidebar__button-btn {
-    padding: 13px 46px;
     font-size: 12px;
+    padding: 13px 46px;
   }
   .grade__bottom {
     margin-bottom: 60px;
@@ -122,12 +122,12 @@
     font-size: 16px;
   }
   .grade__bottom-description {
-    padding-bottom: 37px;
     font-size: 12px;
+    padding-bottom: 37px;
   }
   .talk__title {
-    margin-top: 0;
     padding-top: 86px;
+    margin-top: 0;
   }
   .talk__title:after {
     right: -102px;
@@ -142,6 +142,7 @@
     display: none;
   }
   .talk__bottom {
+    -ms-grid-columns: 1fr 13px 1fr;
     grid-template-columns: repeat(2, 1fr);
     gap: 13px;
   }
@@ -183,26 +184,22 @@
     font-size: 12px;
   }
   .process__item-btn {
-    padding: 12px 42px;
     font-size: 12px;
+    padding: 12px 42px;
   }
   .price {
     padding: 0 0 100px 0;
   }
-  .price__input::-webkit-input-placeholder {
-    /* WebKit browsers */
+  .price__input::-webkit-input-placeholder { /* WebKit browsers */
     font-size: 12px;
   }
-  .price__input:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
+  .price__input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
     font-size: 12px;
   }
-  .price__input::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
+  .price__input::-moz-placeholder { /* Mozilla Firefox 19+ */
     font-size: 12px;
   }
-  .price__input:-ms-input-placeholder {
-    /* Internet Explorer 10+ */
+  .price__input:-ms-input-placeholder { /* Internet Explorer 10+ */
     font-size: 12px;
   }
   .price__left {
@@ -219,8 +216,8 @@
   }
   .price__btn {
     margin-top: 20px;
-    padding: 9px 53px;
     font-size: 12px;
+    padding: 9px 53px;
   }
   .price__social {
     -ms-flex-wrap: unset;
@@ -233,8 +230,8 @@
     margin-right: 13px;
   }
   .price__social-text {
-    max-width: 100px;
     font-size: 12px;
+    max-width: 100px;
   }
   .faq__title {
     margin-bottom: 44px;
@@ -251,9 +248,9 @@
   }
   .faq__item-text:after {
     right: 0;
-    background-size: contain;
     width: 25px;
     height: 25px;
+    background-size: contain;
   }
   .company {
     padding-top: 100px;
@@ -268,8 +265,8 @@
     margin-bottom: 17px;
   }
   .company__block-item {
-    padding: 5px 23px;
     font-size: 12px;
+    padding: 5px 23px;
   }
   .company__bottom-item {
     padding: 10px 0 16px 37px;
@@ -278,8 +275,8 @@
     font-size: 30px;
   }
   .services__title {
-    margin-bottom: 44px;
     padding-top: 100px;
+    margin-bottom: 44px;
   }
   .services__top {
     gap: 13px;
@@ -294,8 +291,8 @@
     gap: 13px;
   }
   .services__bottom-title {
-    padding-top: 0;
     font-size: 35px;
+    padding-top: 0;
   }
   .services__bottom-description span {
     font-size: 14px;
